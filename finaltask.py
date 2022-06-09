@@ -1,5 +1,4 @@
 import streamlit
-import pickle
 import sklearn
 import pandas as pd
 import numpy as np
