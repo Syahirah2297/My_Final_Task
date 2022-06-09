@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-model= pd.load(open('NBA_season1718_salary.csv'))
+model= pd.load(https://github.com/Syahirah2297/My_Final_Task/blob/main/NBA_season1718_salary.csv))
 
 streamlit.title('Salary Prediction for NBA players 2017-2018')
 streamlit.sidebar.header('Player Data')
