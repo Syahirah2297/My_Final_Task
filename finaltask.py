@@ -1,10 +1,18 @@
-import streamlit
-import sklearn
+import streamlit as st
+from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 import numpy as np
 from PIL import Image
 
 model= pd.load_model(https://raw.githubusercontent.com/Syahirah2297/My_Final_Task/main/NBA_season1718_salary.csv)
+
+X = model.drop('label', axis = 1)
+X.head()
+y = data['label']
+y.head()
+
+model = RandomForestClassifier()
+model.fit(X, Y)
 
 streamlit.title('Salary Prediction for NBA players 2017-2018')
 streamlit.sidebar.header('Player Data')
