@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-model= pickle.load(open('NBA_season1718_salary.csv'))
+model= pd.load(open('NBA_season1718_salary.csv'))
 
 streamlit.title('Salary Prediction for NBA players 2017-2018')
 streamlit.sidebar.header('Player Data')
